@@ -7,6 +7,7 @@
 /*===== Primary Color =====*/
 
 /*===== Background Color =====*/
+
 .thm-bg,
 .thm-layer:before,
 .header-right-btns > a.get-quote,
@@ -66,7 +67,9 @@ header.style2 .social-links > a:focus
 {
 	background-color: var(--theme-color);
 }
-
+.header-right-btns > a.get-quote {
+	background-color: #007bff;
+}
 /*===== Text Color =====*/
 .thm-clr,
 .topbar-info-list > li a:hover,
