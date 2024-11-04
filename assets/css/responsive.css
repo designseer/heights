@@ -186,8 +186,23 @@ header,
 
 
 @media (max-width: 730px) {
-.rspn-cnt {display: none;}
-
+/* .rspn-cnt {display: none;} */
+.rspn-cnt {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #1a1a1a;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+.rspn-cnt a{
+  color:#bbb;
+  font-size: 14px;
+}
+.rspn-hdr {
+  margin-top: 20px;
+}
 }
 
 
